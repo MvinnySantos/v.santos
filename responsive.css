@@ -15,7 +15,6 @@
         transition: .5s;
     }
 
-
     .home .profession-container {
         right: inherit;
         
@@ -37,19 +36,15 @@
         border-right: 560px solid var(--main-color);
         border-bottom: 492px solid var(--main-color);
         border-left: 560px solid transparent;
-        /* border bottom e top 50vh */
     }
 
     .home-img img {
         position: relative;
         bottom: 390px;
-        /* bottom alterado de 0 para 5.5 */
         right: 90px;
         pointer-events: none;
         max-width: 800px;
         max-height: 90vh;
-        
-        /* alterado altura e largura */
     }
 
 }
@@ -75,13 +70,10 @@
     .home-img img {
         position: relative;
         bottom: 270px;
-        /* bottom alterado de 0 para 5.5 */
         right: 105px;
         pointer-events: none;
         max-width: 480px;
         max-height: 90vh;
-        
-        /* alterado altura e largura */
     }
 
 
@@ -204,7 +196,6 @@
     .navbar {
         position: absolute;
         top: 100%;
-        /* left: 0; */
         width: 100%;
         padding: 1rem 5%;
         background: var(--bg-color);
@@ -273,7 +264,6 @@
         left: 0;
         border-radius: 0;
         width: 100%;
-        /* background-color: red; */
     }
 
     .home .profession-box .profession {
@@ -301,6 +291,7 @@
     .home .profession-box .profession:nth-child(4) {
         transform: rotate(180deg) translate(-220px, -335px);
     }
+    
 
     .home .profession-box .circle {
         position: fixed;
@@ -546,25 +537,31 @@
         height: 3rem;
     }
 
+    .home .profession-box .profession:nth-child(2) {
+        transform: rotate(0deg) translate(5px, -335px); /*CSS*/
+        padding: 20px;
+        
+    }
+
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-50px, -280px);
+        transform: rotate(-72deg) translate(-30px, -280px);/*HTML*/
         padding: 20px;        
     }
 
-    .home .profession-box .profession:nth-child(2) {
-        transform: rotate(0deg) translate(5px, -335px);
-        padding: 20px;
-        
-    }
-
-    .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-95px, -415px);
-        
+    .home .profession-box .profession:nth-child(5) {
+        transform: rotate(-144deg) translate(-118px, -293px); /*Python*/
+        padding: 20px;        
     }
 
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-150px, -335px);
+        transform: rotate(-216deg) translate(-130px, -375px); /*React JS*/
         padding: 20px;
+    }
+
+    .home .profession-box .profession:nth-child(3) {
+        transform: rotate(-288deg) translate(-60px, -410px); /*JavaScript*/
+        padding: 20px;
+        
     }
 
     .home .profession-container .overlay {
@@ -627,6 +624,5 @@
         left: 0;
         border-radius: 0;
         width: 100%;
-        /* background-color: red; */
     }
 }

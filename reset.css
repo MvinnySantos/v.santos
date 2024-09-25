@@ -15,12 +15,12 @@
     --bg-color: #0a0a0a;
     --text-color: #FFD700;
     --main-color: #d3ad7f;
-    --white-color: #fdfdfd;
+    --white-color: #FFD700;
     --shadow-color: rgba(0, 0, 0, .7);
 }
 
 .dark-mode {
-    --bg-color: #fdfdfd;
+    --bg-color: #FFD700;
     --text-color: #333;
     --shadow-color: rgba(0, 0, 0, .2);
 }

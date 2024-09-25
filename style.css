@@ -542,9 +542,10 @@ section {
 }
 
 .footer {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     flex-wrap: wrap;
     padding: 20px 7%;
     background: var(--main-color);
@@ -553,8 +554,9 @@ section {
 .footer-text p {
     font: 16px;
     color: var(--white-color);
+    font-size: 1.2rem;
 }
-
+/*
 .footer-iconTop a {
     display: inline-flex;
     justify-content: center;
@@ -594,9 +596,7 @@ section {
     margin-bottom: 50px;
     font-size: 16px;
 }
-
+*/
 ul {
     font-size: 15px;
 }
-
-
